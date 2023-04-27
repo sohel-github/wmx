@@ -1,0 +1,57 @@
+.wmx__register{
+    background: var(--gradient-bar);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10.7236px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wmx__register-content{
+    flex: 2;
+}
+.wmx__register-content p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+.wmx__register-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #0E0E0E;
+}
+.wmx__register-start{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.wmx__register-start button{
+    width: 189.14px;
+    height: 59.4px;
+    background: #000000;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:550px) {
+    .wmx__register{
+        flex-direction: column;
+    }
+    .wmx__register-content h1 {
+        line-height: 35px;
+        margin-bottom: 1.5rem;
+    }
+}
